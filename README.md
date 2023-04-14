@@ -22,7 +22,7 @@ There is no need for installation, this is just a bunch of python scripts. The o
 
 
 
-#Usage:
+# Usage:
 
 The file of main interest is the cgn.py file. The example that I attached takes a custom PSF (measured from our microscope in our lab), a list of flourophore coordinates and a sample image and extract generates a sample image
 
@@ -38,12 +38,15 @@ DEFAULT_CONF
 The entries in the files are rather descriptive, I hope they are rather self explanatory. 
 
 
-The core piece is the function ´confocal_generator´. It takes as the 
+The core piece is the function ´confocal_generator´. It takes as the input the three dictionaries. As part of the dictionaries one defines the flourophore corrdinates and the sample image. 
+
+In theory it is very easy to iimplement such that it takes a grounf truth image and the manully enter the moments for the background noise.
 
 
 
 
-
-
+Copyright Jako Niessner
 This project is distributed under the GPL v3 license
+
+
 
