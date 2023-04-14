@@ -7,7 +7,7 @@ https://github.com/SergeDmi/ConfocalGN
 
 https://www.sciencedirect.com/science/article/pii/S2352711017300444
 
-However, later when I was using it, I found that it had a major disadvantage: It is running in Matlab and it was using a lot of RAM. Because of the large ram usage I could only run it at the computers of my work, on which Matlab was not running. I first tried Octave, but could not get it to run. I therefore set out to rewrite it in python. Python has the advantage that it is entirely free and open source. Furthermore it can run in google colab, 
+However, later when I was using it, I found that it had a major disadvantage: It is running in Matlab and it was using a lot of RAM. Because of the large RAM usage I could only run it at the computers of my work, on which Matlab was not running. I first tried Octave, but could not get it to run. I therefore set out to rewrite it in python. Python has the advantage that it is entirely free and open source. Furthermore it can run in google colab, 
 
 
 This repository contains the result of this work. I myself, found that it works really well!
