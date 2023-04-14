@@ -31,3 +31,6 @@ The file of main interest is the cgn.py file. The example that I attached takes 
 
 However, one could easily use different PSFs and so on. One could also provide a ground truth image or something alike
 
+
+This project is distributed under the GPL v3 license
+
