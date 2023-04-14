@@ -18,18 +18,31 @@ The functions have mostly the same name as in the original.
 I also attache an example notebook that I wrote in order to test it
 
 
-Installation:
-
 There is no need for installation, this is just a bunch of python scripts. The only dependencies are numpy, scipy, scikit-image and tifffile
 
 
 
-Usage:
+#Usage:
 
-The file of main interest is the cgn.py file. The example that I attached takes a custom PSF (measured from our microscope in our lab), a list of flourophore coordinates and a sample image and extract generates a sample image 
+The file of main interest is the cgn.py file. The example that I attached takes a custom PSF (measured from our microscope in our lab), a list of flourophore coordinates and a sample image and extract generates a sample image
+
+In the file cgn.py, one has three dictionaries 
+
+DEFAULT_OPTIONS
+
+DEFAULT_TRUTH
+
+DEFAULT_CONF
 
 
-However, one could easily use different PSFs and so on. One could also provide a ground truth image or something alike
+The entries in the files are rather descriptive, I hope they are rather self explanatory. 
+
+
+The core piece is the function ´confocal_generator´. It takes as the 
+
+
+
+
 
 
 This project is distributed under the GPL v3 license
